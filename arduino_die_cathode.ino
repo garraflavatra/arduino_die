@@ -1,5 +1,5 @@
 /**
- * Arduino Dice Roller
+ * Arduino Die Roller
  * 
  * Hardware:
  * - Arduino
@@ -73,7 +73,7 @@ void loop() {
     Serial.println(i);
 
     /**
-     * "Roll" the dice
+     * "Roll" the die
      */
     loading();
     Serial.println("EVENT: Roll complete");
@@ -87,7 +87,7 @@ void loop() {
 }
 
 /**
- * Light up corresponding LED on the sevseg display.
+ * Light up corresponding LED on the sevseg display
  */
 void output() {
   if(i == 1){
